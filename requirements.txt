@@ -1,0 +1,9 @@
+selenium
+beautifulsoup4
+requests
+gunicorn
+flask
+flask-cors
+pymongo
+celery
+redis
