@@ -15,7 +15,7 @@ db = client['KPW']
 resultCrawl = []
 
 def fanpageCrawl(request_url, num_of_post, driver, date_time):
-    driver.get(f'{request_url}')
+    driver.get(request_url)
     sleep(1)
 
     wait = WebDriverWait(driver, 5)
@@ -176,7 +176,7 @@ def fanpageCrawl(request_url, num_of_post, driver, date_time):
             break
 
 def groupCrawl(request_url, num_of_post, driver, date_time):
-    driver.get(f'{request_url}')
+    driver.get(request_url)
     sleep(1)
 
     wait = WebDriverWait(driver, 5)
