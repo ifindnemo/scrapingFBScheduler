@@ -8,8 +8,6 @@ from selenium.webdriver.chrome.options import Options
 import os
 from pymongo import MongoClient
 
-PASSWORD_SECRET = os.environ["PASSWORD_SECRET"]
-
 MONGO_URI = os.environ['MONGODB']
 client = MongoClient(MONGO_URI)
 db = client['KPW']
